@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: jira-config
+  labels:
+    app: jira
+data:
+  JVM_MINIMUM_MEMORY: 2048m
+  JVM_MAXIMUM_MEMORY: 2048m
+  ATL_PROXY_NAME: localhost
+  ATL_PROXY_PORT: '32631'

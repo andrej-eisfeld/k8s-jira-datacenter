@@ -8,6 +8,6 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-   – port: 5432
+   - port: 5432
   selector:
    app: jira-postgres
